@@ -1,0 +1,13 @@
+
+.my {
+    color: aqua;
+    background-color: green;
+    font: 3rem bold italic ;
+    border: none;
+    border-radius: 20%;
+    margin: 20px;
+} 
+
+.animation {
+    box-shadow: 0 15px 15px 0 #ab1010cb;
+}

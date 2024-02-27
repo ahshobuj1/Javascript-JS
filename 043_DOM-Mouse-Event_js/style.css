@@ -1,0 +1,19 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: blueviolet;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+button[type="submit"]{
+    background-color: greenyellow;
+    border: none;
+    color: #191919ce;
+    font-style: italic ;
+    margin: 10px 10px ;
+}

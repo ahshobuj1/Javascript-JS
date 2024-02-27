@@ -1,0 +1,12 @@
+
+
+
+//* DOM Events
+//* 1. Event Objects      
+       Event type - change, submit, load, unload, open, play, canpalay, pause, playing, progress, ended, resize, srcoll, toggle etc.  
+
+//* 2. MouseEvent Objects
+//* 3. KeybordEvent Objects 
+//* 4. FokcusEvent Objects
+//* 5. ClipbordEvent Objects
+//* 6. DragEvent  Objects 
