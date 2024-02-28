@@ -43,3 +43,14 @@ p4.innerText = location.hostname ;
 
 let p5 = p4.nextElementSibling ;
 p5.innerText = location.port ; 
+
+
+//* Added linkedin
+
+let visitButton = document.querySelector("#visit_button");
+
+visitButton.addEventListener("click" , function(){
+
+    location.assign("https://www.likedin.com/in/ahshobuj");
+
+});
