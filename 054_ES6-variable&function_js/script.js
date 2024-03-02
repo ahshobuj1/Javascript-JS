@@ -48,7 +48,6 @@ addDetails(21,10);
 //! ES6 function
 
 const addDetail = (m,n) =>console.log(`the sum is ${m+n}`); //*single line code.
-
 addDetail(30,parseInt(prompt(`enter`)));
 
 
