@@ -64,7 +64,7 @@ case "u" :
     break;
 
 default :
-document.write(" It's a Consonet ");
+document.write(" It's a Consonant ");
 
 
 /* case "a":
@@ -84,5 +84,5 @@ case "u":
     break;
 
 default :
-    document.write(" It's a Consonat"); */
+    document.write(" It's a Consonant"); */
 }

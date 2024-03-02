@@ -1,6 +1,6 @@
 //!Control Statement 2 types :
 //* 1 . Conditional Control Statement -> if , else if , else
-//* 2 . Loop copntrol Statement -> for , while , do while 
+//* 2 . Loop control Statement -> for , while , do while 
 
 
 //! Even or Odd number 

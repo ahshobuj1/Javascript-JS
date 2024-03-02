@@ -8,9 +8,41 @@
 //* access DOM less (use child, nextElementSibling, previousElementSibling, etc...).
 
 
+//* function
+function calculateCartPrice(val1,val3,val4,...num){
+    return num;
+} 
+console.log(calculateCartPrice(200,300,400,5000,7000));
+
+
+//*object
+/* const user = {
+
+    userName : "shobuj" ,
+    prices    : 999 
+
+} */
+
+function handleObject(anyObject){
+
+    console.log(`the userName is ${anyObject.userName} .and price is ${anyObject.price}`);
+}
+
+handleObject({
+    userName : "A H Shobuj",
+    price   : 599
+});
 
 
 
+//*arrays
+const myNewStore = [300, 400, 5000, 900]
+function returnArraysValue(getArray){
+    return getArray[2]
+    console.log();
+};
+//*console.log(returnArraysValue(myNewStore));
+console.log(returnArraysValue([400,654,291,346]));
 
 
 
