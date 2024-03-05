@@ -1,3 +1,17 @@
+//* ES6 function
+
+const toCelsius = (f) => (5/9) * (f-32);
+document.write(toCelsius(50));
+
+
+
+const myFunction = (y,z) => y-z;
+let a = myFunction(7, 3);
+document.write(a);
+
+
+
+
 //* variableDeclaration
 
 let x = "It's outside of loop";
