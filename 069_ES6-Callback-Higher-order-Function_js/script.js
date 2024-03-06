@@ -59,7 +59,16 @@ taskOne(function f1() {
 //
 //
 //
-//
+//* button
+
+console.log(`Before Listener`);
+
+document.querySelector(`button`).addEventListener(`click`, () => {
+    console.log(`hello, i have clicked`);
+});
+
+console.log(`after Listener`);
+
 /* 
 const taskOne = (callback) => {
     console.log(`Task1`);
