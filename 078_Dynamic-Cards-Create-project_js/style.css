@@ -1,0 +1,56 @@
+/* *reset code starts here */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* *reset code ends here */
+/* *container starts here */
+
+.parent {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+/* *container starts here */
+/* *card starts here */
+
+.child {
+    background-color: aqua;
+    padding: 0.5rem;
+    flex-basis: 20%;
+    margin: 0.5rem;
+    box-shadow: 2px 5px 9px 0 rgba(0, 0, 0, 0.2);
+}
+.child:hover {
+    box-shadow: 4px 9px 6px 2px rgba(185, 8, 8, 0.27);
+}
+
+/* *card ends here */
+
+/* * Media quarry */
+
+@media screen and (max-width: 992px) {
+    .child {
+        flex-basis: 30%;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .child {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .child {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}

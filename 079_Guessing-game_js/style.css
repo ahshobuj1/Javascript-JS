@@ -1,0 +1,85 @@
+/* *reset code starts */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* *reset code ends */
+
+.container {
+    width: 100%;
+    height: 80vh;
+    background: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 18rem;
+    padding: 0.7rem;
+    background-color: #7fff81;
+    box-shadow: 0 0.2rem 0.4rem 0.2rem #0000006e;
+    transition: all 0.3s;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 0.3rem 0.3em 0.2rem #b874506e;
+}
+
+/* *card title design starts */
+
+.card_title {
+    text-align: center;
+    color: rgb(222, 20, 20);
+    margin-bottom: 1rem;
+}
+
+/* *card title design ends */
+/* *form design starts*/
+
+#guessing {
+    width: 150px;
+    padding: 0.3rem;
+    border: none;
+    border: 1px solid rgb(11, 3, 234);
+    border-radius: 0.5rem;
+}
+
+/* *form design ends */
+/* *button starts */
+
+.card_button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem;
+}
+
+.btn {
+    border: none;
+    border: 1px solid #c4d80b;
+    border-radius: 0.3rem;
+    background-color: rgb(31, 205, 228);
+    padding: 0.3rem;
+    box-shadow: 0 2px 4px 2px #00000041;
+    transition: all 0.3s;
+}
+.btn:hover {
+    border: 1px solid black;
+    background-color: aliceblue;
+    box-shadow: 0 3px 2px 2px #00000041;
+}
+
+/* *button ends */
+
+.text_list {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

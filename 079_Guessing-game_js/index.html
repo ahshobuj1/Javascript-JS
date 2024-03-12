@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- * custom css -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card_title">
+                    <h1>Guessing game</h1>
+                </div>
+                <form>
+                    <div class="card_body">
+                        <div class="card_input">
+                            <label for="">Guess a number between 1-5:</label>
+                            <input
+                                type="number"
+                                name="guessing"
+                                id="guessing"
+                                min="1"
+                                max="5"
+                                required />
+                        </div>
+                        <div class="card_button">
+                            <button type="submit" class="btn">
+                                View Result
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="card_para">
+                    <p class="message"></p>
+                    <h3 class="p"></h3>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

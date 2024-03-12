@@ -1,0 +1,30 @@
+.slide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    margin: 2%;
+    width: 96%;
+}
+
+.slide-item {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.8s;
+}
+
+.slide-item i {
+    color: rgb(4, 171, 26);
+    font-size: 10rem;
+}
+
+.slide-item h2 {
+    color: rgba(186, 8, 23, 0.841);
+    font-size: 10rem;
+}
+
+.slide-item.present {
+    transform: translate(-50%, -50%) scale(1);
+}
