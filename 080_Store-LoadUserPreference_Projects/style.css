@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: antiquewhite;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px 4px #ff000051;
+    transition: all 0.3s;
+}
+.container:hover {
+    box-shadow: 0 7px 4px 4px #ff000064;
+}
+
+#selectFont {
+    margin: 1rem;
+    background-color: aqua;
+}
+
+#selectBg {
+    margin: 1rem;
+    background-color: chartreuse;
+}
+
+#btn {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 4px 10px 4px 10px;
+    background-color: aqua;
+    transition: all 0.2s;
+}
+#btn:hover {
+    background-color: rgb(13, 163, 20);
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+@media screen and (min-width: 992px) {
+    .container {
+        width: 60%;
+        margin: 1rem auto;
+    }
+}
