@@ -1,0 +1,5 @@
+node_modules/
+jsdoc/fonts/
+jsdoc/scripts/
+package-lock.json
+README.md

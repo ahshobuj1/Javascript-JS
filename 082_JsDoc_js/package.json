@@ -1,0 +1,16 @@
+{
+    "name": "082_jsdoc_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "jsdoc": "jsdoc -c jsdoc.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jsdoc": "^4.0.2"
+    }
+}
